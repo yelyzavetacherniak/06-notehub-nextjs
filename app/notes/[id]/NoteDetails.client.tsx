@@ -5,7 +5,7 @@ import css from './NoteDetails.module.css';
 import { useQuery } from '@tanstack/react-query';
 import { fetchNoteById } from '../../lib/api';
 
-import { Note } from '../../types/note';
+import { Note } from '../../../types/note';
 import { useParams } from 'next/navigation';
 
 interface Props {
