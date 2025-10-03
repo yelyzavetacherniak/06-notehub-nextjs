@@ -10,7 +10,7 @@ import Pagination from '../../components/Pagination/Pagination';
 import Modal from '../../components/Modal/Modal';
 import NoteForm from '../../components/NoteForm/NoteForm';
 
-import { fetchNotes } from '../lib/api';
+import { fetchNotes } from '../../lib/api';
 import css from './NotesPage.module.css';
 
 export default function NotesClient() {

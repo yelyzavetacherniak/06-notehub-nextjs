@@ -4,7 +4,7 @@ import * as Yup from 'yup';
 import { useId } from 'react';
 
 import { useMutation, useQueryClient } from '@tanstack/react-query';
-import { createNote } from '../../app/lib/api';
+import { createNote } from '../../lib/api';
 import type { NoteTag } from '../../types/note';
 
 interface NoteFormValues {
