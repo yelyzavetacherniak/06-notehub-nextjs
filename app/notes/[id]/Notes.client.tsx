@@ -34,9 +34,7 @@ export default function NoteDetails({ noteId }: Props) {
           <h2>{note.title}</h2>
         </div>
         <p className={css.content}>{note.content}</p>
-        <p className={css.date}>
-          Created at: {new Date(note.createdAt).toLocaleString()}
-        </p>
+        <p className={css.date}>Created at: {note.createdAt}</p>
       </div>
     </div>
   );
