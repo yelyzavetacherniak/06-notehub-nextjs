@@ -3,7 +3,7 @@
 export default function Error() {
   return (
     <>
-      <p>Could not fetch the list of notes.</p>
+      <p>Could not fetch note details.</p>
     </>
   );
 }
