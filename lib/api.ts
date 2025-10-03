@@ -1,5 +1,5 @@
 import axios from 'axios';
-import type { Note, NoteTag } from '../../types/note';
+import type { Note, NoteTag } from '../types/note';
 
 const API_URL = 'https://notehub-public.goit.study/api/notes';
 const NEXT_PUBLIC_NOTEHUB_TOKEN = process.env.NEXT_PUBLIC_NOTEHUB_TOKEN;
